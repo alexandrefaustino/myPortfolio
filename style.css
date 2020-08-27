@@ -4,15 +4,30 @@ body {
 
 .sections {
   background-color: #121213;
-  height: 100px;  
   border-radius: 5px;
-  height: 40px;
+}
+
+.name {
+  height: 120px;
 }
 
 .name h1 {
   text-align: center;
   margin: auto;
   font-weight: 900;
+  font-size: 30pt;
+  padding-top: 15px;  
+}
+
+.menu {
+  text-align-last: center;  
+}
+
+.menu ul li {
+  display: inline-block;
+  font-size: 13pt;  
+  margin-right: 20px;
+  padding-top: 10px;
 }
 
 .description-photo {
@@ -124,22 +139,13 @@ a {
   color: #ebd7a5;
 }
 
-.menu {
-  position: absolute;
-  width: 44%;
-  height: 50px;
-  border: 1px solid #ebd7a5 ;
-  background-color: #111;
-  top: 49px;
-  right: 2px;  
-}
-
-.menu ul li {
-  display: inline-block;
-  margin-right: 20px;
-  padding: 0;
-}
-
 a:hover {
   background-color: #808080;
+}
+
+.topo a {
+  border: 2px solid #ebd7a5;
+  margin-left: 50%;
+  font-size: 20pt;
+  padding: 5px;
 }
