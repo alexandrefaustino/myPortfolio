@@ -1,120 +1,151 @@
-img.myPicture {
-  border-radius: 50%;
-  width: 200px;
+body {
+  background-color: #2b2c31;
 }
 
-img.emojiTrybe {
+.sections {
+  background-color: #121213;
+  border-radius: 5px;
+}
+
+.name {
+  height: 120px;
+}
+
+.name h1 {
+  text-align: center;
+  margin: auto;
+  font-weight: 900;
+  font-size: 30pt;
+  padding-top: 15px;  
+}
+
+.menu {
+  text-align-last: center;  
+}
+
+.menu ul li {
+  display: inline-block;
+  font-size: 13pt;  
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+.description-photo {
+  margin: 10px 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.description-photo div {
+  display: inline-block;  
+}
+
+.divDescription {
+  margin-left: 50px;
+}
+
+h1, h2 {
+  color: #ebd7a5;
+}
+
+.myPicture {
+  border-radius: 10%;
+  width: 250px;
+}
+
+.sections h2 {
+  padding-top: 7px;
+  margin-left: 35px;
+  font-weight: 900;
+}
+
+.emojiTrybe {
   width: 25px;  
 }
 
-img.ufpbPicture {
+.ufpbPicture {
   width: 60px;  
   height: 40px;
 }
 
-img.esabPicture {
+.esabPicture {
   width: 60px;
   height: 30px;
 }
 
-img.fibPicture {
-  width: 60px;
-  height: 35px;
+.fipPicture {
+  width: 80px;
+  height: 30px;
 }
 
-img.seta {
-  width: 170px;
-  position: absolute; 
-  top: 90px;
-  left: 400px;
-}
-
-div.sec {
-  background-color: rgb(0,200,157);
-  height: 100px;  
-  border-radius: 5px;
-}
-
-div.life {
+.life {
   border: 2px solid #000;
   border-radius: 5px;
   width: 300px;
   height: 16px;
 }
 
-div.lifeJavaScript {
-  background-color: rgb(51,234,166);
-  width: 100px;
+.life div {
+  background-color: #121213;
   height: 16px;
 }
 
-div.lifeHtml {
-  background-color: rgb(51,234,166);
-  width: 50px;
-  height: 16px;
+.lifeJavaScript {
+  width: 100px;  
 }
 
-div.lifeCss {
-  background-color: rgb(51,234,166);
-  width: 25px;
-  height: 16px;
+.lifeHtml {
+  width: 50px;  
 }
 
-div.lifeBD {
-  background-color: rgb(51,234,166);
-  width: 150px;
-  height: 16px;
+.lifeCss {
+  width: 40px;
 }
 
-div.lifeLinux {
-  background-color: rgb(51,234,166);
+.lifeBD {
+  width: 150px;  
+}
+
+.lifeLinux {
   width: 180px;
-  height: 16px;
 }
 
-div.lifeGit {
-  background-color: rgb(51,234,166);
-  border: 0px solid #000;
-  width: 100px;
-  height: 16px;
-}
-
-div.menu {
-  position: absolute;
-  top: 30px;
-  left: 570px;
-  width: 300px;
-  height: 200px;
+.lifeGit {
+  width: 100px;  
 }
 
 p {
+  color: #ebd7a5;
   font-size: 16pt;
   line-height: 10px;
 }
 
-h1, h2 {
-  padding: 35px 0px 30px 5px; 
-}
-
-li {
+ul {
+  color: #ebd7a5;
   font-family: cursive, sans-serif;
   font-size: 14pt;
+  line-height: 35px;
   list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  margin-left: 35px;
+  font-weight: 530;
 }
 
 a {
-  padding: 0;
-  color: rgb(36, 36, 36);
   text-decoration-line: none;
-  font-size: 15pt;
   line-height: 35px;
-  font-weight: 600;
+  font-weight: 700;
+  color: #ebd7a5;
 }
 
-a.linkMenu {
-  color: rgb(85, 26, 139);
-  text-decoration-line: none;
-  font-size: 30pt;
-  line-height: 35px;
-  font-weight: 600;
+a:hover {
+  background-color: #808080;
+}
+
+.topo a {
+  border: 2px solid #ebd7a5;
+  margin-left: 50%;
+  font-size: 20pt;
+  padding: 5px;
 }
