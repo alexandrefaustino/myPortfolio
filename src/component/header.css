@@ -1,0 +1,51 @@
+.sections {
+  background-color: #121213;
+  border-radius: 5px;
+}
+
+.name {
+  height: 120px;
+}
+
+.menu ul li {
+  display: inline-block;
+  font-size: 13pt;  
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+.name h1 {
+  text-align: center;
+  margin: auto;
+  font-weight: 900;
+  font-size: 30pt;
+  padding-top: 15px;  
+}
+
+.menu {
+  text-align-last: center;  
+}
+
+ul {
+  color: #ebd7a5;
+  font-family: cursive, sans-serif;
+  font-size: 14pt;
+  line-height: 35px;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  margin-left: 35px;
+  font-weight: 530;
+}
+
+a {
+  text-decoration-line: none;
+  line-height: 35px;
+  font-weight: 700;
+  color: #ebd7a5;
+}
+
+
+a:hover {
+  background-color: #808080;
+}

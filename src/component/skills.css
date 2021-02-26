@@ -1,0 +1,41 @@
+.life {
+  border: 2px solid #000;
+  border-radius: 5px;
+  width: 300px;
+  height: 16px;
+}
+
+.life div {
+  background-color: #121213;
+  height: 16px;
+}
+
+.lifeJavaScript {
+  width: 190px;  
+}
+
+.lifeHtml {
+  width: 290px;  
+}
+
+.lifeCss {
+  width: 190px;
+}
+
+.lifeBD {
+  width: 190px;  
+}
+
+.lifeLinux {
+  width: 200px;
+}
+
+.lifeGit {
+  width: 220px;  
+}
+
+.sections h2 {
+  padding-top: 7px;
+  margin-left: 35px;
+  font-weight: 900;
+}

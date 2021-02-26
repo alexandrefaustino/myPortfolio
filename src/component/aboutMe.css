@@ -1,0 +1,43 @@
+.description-photo {
+  margin: 10px 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.description-photo div {
+  display: inline-block;  
+}
+
+p {
+  color: #ebd7a5;
+  font-size: 16pt;
+  line-height: 10px;
+}
+
+.divDescription {
+  margin-left: 50px;
+}
+
+.myPicture {
+  border-radius: 10%;
+  width: 250px;
+}
+
+.emojiTrybe {
+  width: 25px;  
+}
+
+.ufpbPicture {
+  width: 60px;  
+  height: 40px;
+}
+
+.esabPicture {
+  width: 60px;
+  height: 30px;
+}
+
+.fipPicture {
+  width: 80px;
+  height: 30px;
+}
